@@ -30,13 +30,17 @@ function randomHole(holes) {
 	return hole;
 }
 
+function update_accuracy() {
+	accuracy.textContent = Math.round(scoreBoard.textContent / totalScoreBoard.textContent * 100) + "%";
+}
+
 function peep() {
 	const time = randomTime(600, 1000);
 	const hole = randomHole(holes);
 	hole.classList.add("up");
 	total_peeks++;
 	totalScoreBoard.textContent = total_peeks;
-	accuracy.textContent = Math.round(scoreBoard.textContent / totalScoreBoard.textContent * 100) + "%";
+	update_accuracy()
 	setTimeout(() => {
 		hole.classList.remove("up");
 		if (!timeUp) peep();

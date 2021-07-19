@@ -13,7 +13,7 @@ html {
 body {
 	padding: 0;
 	margin: 0;
-	font-family: "Amatic SC", cursive;
+	font-family: 'Amatic SC', cursive;
 	cursor: url("../images/mallet.png"), auto;
 }
 
@@ -125,4 +125,10 @@ h2 {
 }
 
 .start:hover {
+}
+
+.hitCounter {
+	float: right;
+	margin: 1.5rem 2rem;
+	font-family: 'Roboto Mono', monospace;
 }
