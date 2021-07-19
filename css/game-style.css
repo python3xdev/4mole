@@ -24,7 +24,28 @@ h1 {
 	margin-bottom: 0;
 }
 
+h2 {
+	text-align: center;
+	font-size: 6.5rem;
+	line-height: 1;
+	margin-bottom: 0;
+}
+
 .score {
+	background: rgba(255, 255, 255, 0.2);
+	padding: 0 3rem;
+	line-height: 1;
+	border-radius: 1rem;
+}
+
+.total-peeks {
+	background: rgba(255, 255, 255, 0.2);
+	padding: 0 3rem;
+	line-height: 1;
+	border-radius: 1rem;
+}
+
+.accuracy {
 	background: rgba(255, 255, 255, 0.2);
 	padding: 0 3rem;
 	line-height: 1;
@@ -73,4 +94,35 @@ h1 {
 
 .hole.up .mole {
 	top: 5%; /* So you cannot see the bottom of the mole */
+}
+
+.btn {
+	-webkit-border-radius: 12;
+	-moz-border-radius: 12;
+	border-radius: 12px;
+	font-family: Courier New;
+	color: #ffffff;
+	font-size: 20px;
+	background: #000000;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.btn:hover {
+	background: #474747;
+	text-decoration: none;
+}
+
+.reload-btn {
+	margin: 1rem 1rem;
+}
+
+.reload-btn:hover {
+}
+
+.start {
+}
+
+.start:hover {
 }
