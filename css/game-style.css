@@ -1,5 +1,13 @@
+/* Importing/Using Custom Fonts */
+@font-face {
+	font-family: 'Permanent Marker';
+	src: url('../fonts/PermanentMarker-Regular.ttf') format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
 html {
-	box-sizing: border-box;
+	/*box-sizing: border-box;*/
 	font-size: 10px;
 	background: #ffc600;
 }
@@ -7,7 +15,7 @@ html {
 *,
 *:before,
 *:after {
-	box-sizing: inherit;
+	/*box-sizing: inherit;*/
 }
 
 body {
@@ -97,6 +105,13 @@ h2 {
 	top: 5%; /* So you cannot see the bottom of the mole */
 }
 
+.buttons-wrapper {
+	text-align: center;
+	margin-top: 3rem;
+	margin-bottom: 2rem;
+	display: inline-block;
+}
+
 .btn {
 	-webkit-border-radius: 12;
 	-moz-border-radius: 12;
@@ -104,7 +119,7 @@ h2 {
 	font-family: Courier New;
 	color: #ffffff;
 	font-size: 20px;
-	background: #000000;
+	background: #1f1f1f;
 	padding: 10px 20px 10px 20px;
 	text-decoration: none;
 	font-weight: bold;
@@ -116,20 +131,15 @@ h2 {
 }
 
 .reload-btn {
-	margin: 1rem 1rem;
+	margin-left: 1rem;
 }
 
 .reload-btn:hover {
 }
 
 .start {
+
 }
 
 .start:hover {
-}
-
-.hitCounter {
-	float: right;
-	margin: 1.5rem 2rem;
-	font-family: 'Roboto Mono', monospace;
 }

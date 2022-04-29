@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Home | 4mole™</title>
+		<link rel="icon" type="image/x-icon" href="images/4mole-logo.png">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+	</head>
+	<body>
+
+		<canvas id="bgStarCanvas" style="background: #111; position: fixed; z-index: -1;"></canvas>
+
+		<div class="intro">
+			<h1 class="logo-header">
+				<span class="logo">4</span><span class="logo">m</span><span class="logo">o</span><span class="logo">l</span><span class="logo">e</span><span class="logo">™</span>
+			</h1>
+		</div>
+
+		<header>
+			<div class="company-name-and-logo-header">
+				<a href="index.html" target="_blank"><img src="images/4mole-logo.png" alt="4mole™ logo" class="header-company-logo"></a>
+				<a class="header-company-name" href="index.html">4mole™</a>
+			</div>
+			<div class="nav-items">
+				<a id="home-tab" class="nav-item active" onclick="switchToHomeTab()">Home</a>
+				<a id="products-tab" class="nav-item" onclick="switchToProductsTab()">Products</a>
+				<a id="about-tab" class="nav-item" onclick="switchToAboutTab()">About</a>
+			</div>
+		</header>
+		<div id="content-wrapper">
+			<div id="content">
+
+			</div>
+		</div>
+		<footer id="footer">
+			<div class="social-icons-wrapper">
+				<a href="https://twitter.com/4mole_official" target="_blank" class="footer-social-link">
+					<span class="fa-stack fa-lg social-icon">
+						<i class="fab fa-twitter fa-stack-1x twitter-icon"></i>
+					</span>
+				</a>
+				<a href="https://vimeo.com/4mole" target="_blank" class="footer-social-link">
+					<span class="fa-stack fa-lg social-icon">
+						<i class="fa fa-square fa-stack-1x"></i>
+						<i class="fab fa-vimeo fa-stack-1x vimeo-icon"></i>
+					</span>
+				</a>
+				<a href="https://4mole.itch.io/" target="_blank" class="footer-social-link">
+					<span class="fa-stack fa-lg social-icon">
+						<i class="fab fa-itch-io fa-stack-1x itch-io-icon"></i>
+					</span>
+				</a>
+			</div>
+			<p>4mole™ All Rights Reserved. © 2021-<span id="copyright-year"></span></p>
+		</footer>
+
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://kit.fontawesome.com/18473207e7.js" crossorigin="anonymous"></script>
+		<script src="js/script.js"></script>
+	</body>
+</html>
